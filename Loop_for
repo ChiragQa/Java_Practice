@@ -1,0 +1,26 @@
+package pkg1;
+
+public class Loop_for {
+
+	public static void main(String[] args) {
+		int i;
+		for( i=0;i<=5;i++)
+		{
+			/*If Condition pass then break from this*/
+			if(i==3)
+			break;	
+			System.out.println("Value of I ="+i);
+		}
+		
+		for(i=0;i<10;i+=2)
+		{
+			/*If Condition pass then skip Specific step and Continue from next step*/
+			if(i>=7)
+			continue;	
+			System.out.println("Value of I ="+i);
+			
+		}
+
+	}
+
+}
