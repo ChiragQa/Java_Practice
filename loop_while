@@ -1,0 +1,16 @@
+package pkg1;
+
+public class loop_while {
+
+	public static void main(String[] args) {
+	
+		int i=0;
+		while(i<=30)
+		{
+			i=i+5;
+			System.out.println("While loop iteration :"+i);
+		}
+
+	}
+
+}
