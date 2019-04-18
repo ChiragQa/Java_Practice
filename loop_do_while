@@ -1,0 +1,23 @@
+package pkg1;
+
+public class loop_do_while {
+
+	public static void main(String[] args) {
+		
+		int i=0;
+		do {
+			i=i+5;
+			System.out.println("value of i:"+i);
+			
+		}while(i<=30);
+		
+		int j=35;
+		
+		do {
+			System.out.println("---------------");
+			System.out.println("value of j:"+j);
+		}while(j<35);
+
+	}
+
+}
