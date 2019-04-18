@@ -1,0 +1,29 @@
+package pkg1;
+
+import java.time.Month;
+
+public class for_with_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String Months[] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUEST", "SEPTEMBER",
+				"OCTOMBER", "NOVEMBER", "DECEMBER" };
+
+		System.out.println("---Month Name Print using Array with For Loop---");
+
+		for (String MonthName : Months) {
+
+			System.out.println("Month Name :" + MonthName);
+
+		}
+
+		// Normal For Loop to Print Array
+		System.out.println("----Month Name Print with Normal For Loop----");
+
+		for (int i = 0; i < Months.length; i++) {
+
+			System.out.println("Month Name =>" + Months[i]);
+		}
+	}
+
+}
