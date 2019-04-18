@@ -1,0 +1,54 @@
+package pkg1;
+
+public class QA {
+
+	String sName;
+	double dExperience;
+	int iTotalbug;
+	double iBugRatio;
+	boolean bAutomationQA;
+	String sStudy;
+	
+	public void CharacteristicofQA()
+	{
+		System.out.println("QA Name                   : "+sName);
+		System.out.println("Experience of QA          : "+dExperience);
+		System.out.println("Total No Of Posted issueL : "+iTotalbug);
+		System.out.println("Bug Ratio Against Task    : "+iBugRatio);
+		System.out.println("Is Know Automation        : "+bAutomationQA);
+		System.out.println("Study                     :"+sStudy);
+	}
+
+	public static void main(String[] args) {
+
+		// class_name Class_variable=new class_name(); 
+		// For Declaring Class variable to use class variable in main method
+
+		QA JR_QA = new QA();
+
+		JR_QA.sName = "Chirag Patel";
+		JR_QA.sStudy = "Graduate";
+		JR_QA.iTotalbug = 1200;
+		JR_QA.bAutomationQA = true;
+		JR_QA.iBugRatio = 70;
+		JR_QA.dExperience=4.5;
+		
+		//Intialize variable for Other class
+		
+		QA SR_QA=new QA();
+		
+		SR_QA.sName = "Rahul ";
+		SR_QA.sStudy = "Post Graduate";
+		SR_QA.iTotalbug = 1500;
+		SR_QA.bAutomationQA = false;
+		SR_QA.iBugRatio = 75;
+		SR_QA.dExperience=6.5;
+		
+		
+		//CAll Class Method
+		JR_QA.CharacteristicofQA();
+		System.out.println("-----------------------------------");
+		SR_QA.CharacteristicofQA();
+	}
+
+}
